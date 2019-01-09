@@ -1,4 +1,4 @@
-*.aux
+*.auxl
 *.backup
 *.bbl
 *.bib*
@@ -17,4 +17,23 @@
 *.tar*
 *.toc
 *~
-/*.pdf
+
+#exclude all tex files
+*.tex
+
+#exclude all .pdf files
+*.pdf
+
+#whitelist locations
+!**hlp/**.pdf
+!**out/**.pdf
+!**skp/**.pdf
+!**skp/**.tex
+
+!opn/conf/**.tex
+
+#allow tex and pdf inside last folder depth
+!**chp/**.pdf
+!**chp/**.tex
+!**date/**.pdf
+!**date/**.tex
