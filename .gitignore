@@ -25,15 +25,16 @@
 *.pdf
 
 #whitelist locations
-!**hlp/**.pdf
-!**out/**.pdf
-!**skp/**.pdf
-!**skp/**.tex
+!/**/hlp/**/*.pdf
+!/**/skp/**/*.pdf
+!/**/skp/**/*.tex
 
-!opn/conf/**.tex
+!opn/conf/**/*.tex
 
 #allow tex and pdf inside last folder depth
-!**chp/**.pdf
-!**chp/**.tex
-!**date/**.pdf
-!**date/**.tex
+!/**/chp/**/*.pdf
+!/**/chp/**/*.tex
+!/**/date/**/*.pdf
+!/**/date/**/*.tex
+!/**/misc/**/*.pdf
+!/**/misc/**/*.tex
